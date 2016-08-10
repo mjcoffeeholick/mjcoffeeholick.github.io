@@ -1,0 +1,239 @@
+
+/* style.css */
+/*http://kitt.lewagon.org/camps/34/livecode?path=04-Front-End%2F01-HTML-and-CSS*/
+body {
+	background: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+div {
+    display: block;
+}
+h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+}
+h1 {
+    color: #DD5555;
+    font-size: 22px;
+}
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+h3 {
+    font-size: 15px;
+    font-weight: 300;
+}
+p {
+}
+a {
+	color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #DD5555;
+    text-decoration: underline;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+/* IDs */
+#img-profile {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #cccccc;
+}
+#logo-highlight {
+    height: 40px;
+}
+/* CLASS */
+.titles {font-family: 'Raleway', sans-serif;}
+.clear {clear: both;}
+.especial-color {
+    color: #DD5555;
+}
+.container {
+    width: 70%;
+    margin: 30px auto;
+}
+.text-center {
+    text-align: center;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.img-circle {
+    border-radius: 50%;
+}
+.txt-top {
+    font-weight: 300;
+    text-align: center;
+}
+.btn-top {
+    text-align: center;
+    padding: 15px;
+}
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn-red:hover {
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn-pink {
+    background-color: #ED1E6B;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn-pink:hover {
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn-yellow {
+    background-color: #F8B517;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn-yellow:hover {
+    background-color: #333;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+ul.list-inline {
+    padding-left: 0;
+}
+ul.list-inline-event {
+    padding-left: 0;
+}
+ul.list-inline li {
+    display: inline-block;
+    padding: 20px;
+}
+ul.list-inline-event li {
+    display: inline-block;
+    padding: 10px;
+}
+ul.list-inline a {
+	color: #ccc;
+    text-decoration: none;
+}
+ul.list-inline-event a {
+    color: #ccc;
+    text-decoration: none;
+}
+ul.list-inline a:hover {
+	color: #333;
+    text-decoration: none;
+}
+ul.list-inline-event a:hover {
+    color: #333;
+    text-decoration: none;
+}
+.item {
+	width: 100%;
+	margin-bottom: 10px;
+	font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+    border-bottom: 2px dotted #f2f2f2;
+}
+.item-gray {
+	width: 100%;
+	margin-bottom: 20px;
+	background: #f4f4f4;
+	font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.item img {
+	width: 100%;
+}
+.item-gray img {
+	width: 100%;
+}
+.img-item {
+	float: left;
+	width: 49%;
+}
+.ico-item {
+    font-family: 'Raleway', sans-serif;
+}
+.content-item {
+	float: right;
+	width: 49%;
+	text-align: left;
+	margin-left: 2%;
+}
+.content-item a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+.content-item a:hover {
+	color: #DD5555;
+	text-decoration: underline;
+}
+.content-item h3 {
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
+	font-weight: bold;
+}
+.content-item p {
+	padding-right: 10px;
+    line-height: 20px;
+}
+/* COLOR CLASS */
+.gray {
+	color: #333;
+}
+
+@media only screen and (max-width: 480px) {
+	.container {
+    width: 90%;
+    margin: 30px auto;
+}
+.img-item {
+    float: left;
+    width: 100%;
+}
+.content-item {
+    float: right;
+    width: 100%;
+    text-align: left;
+}
+}
