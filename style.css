@@ -1,8 +1,7 @@
 
 /* style.css */
-/*http://kitt.lewagon.org/camps/34/livecode?path=04-Front-End%2F01-HTML-and-CSS*/
 body {
-	background: #EBEBEB;
+	background: #EBEBEB url(.../images/);
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #7d7d7d;
@@ -12,7 +11,7 @@ body {
 div {
     display: block;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
 h1 {
@@ -30,12 +29,37 @@ h3 {
 p {
 }
 a {
-	color: #333;
     text-decoration: none;
+    color: #333;
 }
-a:hover {
-    color: #DD5555;
-    text-decoration: underline;
+
+h3 a {
+    -webkit-box-shadow: inset 0 -4px 0 #93e3e5;
+    -moz-box-shadow: inset 0 -4px 0 #93e3e5;
+    box-shadow: inset 0 -4px 0 #93e3e5;
+    font-weight: bold;
+}
+h3 a:hover {
+    -webkit-box-shadow: inset 0 -4px 0 #93e3e5;
+    -moz-box-shadow: inset 0 -4px 0 #93e3e5;
+    box-shadow: inset 0 -4px 0 #93e3e5;
+    font-weight: bold;
+}
+h3 a:visited {
+    -webkit-box-shadow: inset 0 -4px 0 #238282;
+    -moz-box-shadow: inset 0 -4px 0 #238282;
+    box-shadow: inset 0 -4px 0 #238282;
+    font-weight: bold;
+}
+h4 a {
+    color: #ccc;
+    padding: 0;
+    margin: 0;
+}
+h4 a:hover {
+    color: #7d7d7d;
+    padding: 0;
+    margin: 0;
 }
 ul, menu, dir {
     display: block;
@@ -58,22 +82,29 @@ ul, menu, dir {
 /* CLASS */
 .titles {font-family: 'Raleway', sans-serif;}
 .clear {clear: both;}
-.especial-pink {
-    color: #DD5555;
-}
-.especial-grey {
-    color: #ccc;
-}
-.links-light-grey a {
-    color: #ccc;
-}
-.links-light-grey a:hover {
-    color: #DD5555;
-    text-decoration: none;
-}
+
 .links-ico {
     width: 100%; 
     padding-bottom: 20px;
+    color: #ccc;
+}
+.links-ico a {
+    width: 100%; 
+    padding-bottom: 20px;
+    color: #7d7d7d;
+    text-decoration: none;
+}
+.links-ico a:visited {
+    width: 100%; 
+    padding-bottom: 20px;
+    color: #7d7d7d;
+    text-decoration: none;
+}
+.links-ico a:hover {
+    width: 100%; 
+    padding-bottom: 20px;
+    color: #DD5555;
+    text-decoration: none;
 }
 .links-ico-item {
     display: inline;
@@ -165,17 +196,18 @@ ul.list-inline li {
 ul.list-inline-event li {
     display: inline-block;
     padding: 10px;
+    color: #ccc;
 }
 ul.list-inline a {
 	color: #ccc;
     text-decoration: none;
 }
-ul.list-inline-event a {
-    color: #ccc;
+ul.list-inline a:hover {
+    color: #333;
     text-decoration: none;
 }
-ul.list-inline a:hover {
-	color: #333;
+ul.list-inline-event a {
+    color: #ccc;
     text-decoration: none;
 }
 ul.list-inline-event a:hover {
@@ -217,20 +249,12 @@ ul.list-inline-event a:hover {
 .ico-item {
     font-family: 'Raleway', sans-serif;
 }
+
 .content-item {
 	float: right;
 	width: 49%;
 	text-align: left;
 	margin-left: 2%;
-}
-.content-item a {
-	color: #333;
-	text-decoration: none;
-	font-weight: bold;
-}
-.content-item a:hover {
-	color: #DD5555;
-	text-decoration: underline;
 }
 .content-item h3 {
 	padding: 0px;
@@ -241,16 +265,15 @@ ul.list-inline-event a:hover {
 	padding-right: 10px;
     line-height: 20px;
 }
-.especial-grey a {
-    color: #ccc;
-}
-.especial-grey a:hover {
-    text-decoration: none;
-}
+
 /* COLOR CLASS */
 .gray {
 	color: #333;
 }
+.especial-pink {
+    color: #DD5555;
+}
+
 
 @media only screen and (max-width: 1024px) {
     .container {
