@@ -77,7 +77,7 @@ ul, menu, dir {
     border: 3px solid #93e3e5;
 }
 #logo-highlight {
-    height: 40px;
+    width: 20%;
 }
 /* CLASS */
 .titles {font-family: 'Raleway', sans-serif;}
@@ -135,21 +135,85 @@ ul, menu, dir {
     text-align: center;
     padding: 15px;
 }
-.btn-red {
-    background-color: #DD5555;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 4px;
-    text-decoration: none;
+.button-3d-red {
+    position:relative;
+    width: auto;
+    color:#fff;
+    text-decoration:none;
+    text-shadow: -1px -1px #a23f3f;
+    border-radius:5px;
+    background:#dd5555;
+    text-align:center;
+    font-size: 1.0em;
+    padding:16px 18px 14px;
+     
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+     
+    -webkit-box-shadow: 0px 6px 0px #a23f3f;
+    -moz-box-shadow: 0px 6px 0px #a23f3f;
+    box-shadow: 0px 6px 0px #a23f3f;
 }
-.btn-red:hover {
-    background-color: #333;
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 4px;
-    text-decoration: none;
+.button-3d-red:hover {
+    position:relative;
+    width: auto;
+    color:#fff;
+    text-decoration:none;
+    text-shadow: 1px 1px #333;
+    border-radius:5px;
+    background:#a23f3f;
+    text-align:center;
+    font-size: 1.0em;
+    padding:16px 18px 14px;
+     
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+     
+    -webkit-box-shadow: 0px 6px 0px #6e2c2c;
+    -moz-box-shadow: 0px 6px 0px #6e2c2c;
+    box-shadow: 0px 6px 0px #6e2c2c;
+}
+.button-3d-pink {
+    position:relative;
+    width: auto;
+    color:#fff;
+    text-decoration:none;
+    text-shadow: -1px -1px #a23f3f;
+    border-radius:5px;
+    background:#dd5555;
+    text-align:center;
+    font-size: 1.0em;
+    padding:16px 18px 14px;
+     
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+     
+    -webkit-box-shadow: 0px 6px 0px #a23f3f;
+    -moz-box-shadow: 0px 6px 0px #a23f3f;
+    box-shadow: 0px 6px 0px #a23f3f;
+}
+.button-3d-pink:hover {
+    position:relative;
+    width: auto;
+    color:#fff;
+    text-decoration:none;
+    text-shadow: -1px -1px #333;
+    border-radius:5px;
+    background:#333;
+    text-align:center;
+    font-size: 1.0em;
+    padding:16px 18px 14px;
+     
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+     
+    -webkit-box-shadow: 0px 6px 0px #a23f3f;
+    -moz-box-shadow: 0px 6px 0px #a23f3f;
+    box-shadow: 0px 6px 0px #a23f3f;
 }
 .btn-pink {
     background-color: #ED1E6B;
