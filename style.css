@@ -77,7 +77,10 @@ ul, menu, dir {
     border: 3px solid #93e3e5;
 }
 #logo-highlight {
-    width: 20%;
+    width: 50%;
+}
+#img-2017 {
+    width: 50%;
 }
 /* CLASS */
 .titles {font-family: 'Raleway', sans-serif;}
@@ -378,6 +381,31 @@ ul.list-inline-event a:hover {
     color: #DD5555;
 }
 
+@media only screen and (min-width: 480px) { 
+	#logo-highlight {
+	    width: 50%;
+	}
+	#img-2017 {
+	    width: 50%;
+	}
+
+}
+@media only screen and (min-width: 600px) { 
+	#logo-highlight {
+	    width: 50%;
+	}
+	#img-2017 {
+	    width: 50%;
+	}
+}
+@media only screen and (min-width: 992px) { 
+	#logo-highlight {
+	    width: 50%;
+	}
+	#img-2017 {
+	    width: 50%;
+	}
+}
 
 @media only screen and (max-width: 1024px) {
     .container {
@@ -393,5 +421,20 @@ ul.list-inline-event a:hover {
         width: 100%;
         text-align: left;
     }
+	#logo-highlight {
+	    width: 50%;
+	}
+	#img-2017 {
+	    width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1382px) { 
+	#logo-highlight {
+	    width: 50%;
+	}
+	#img-2017 {
+	    width: 50%;
+	}
 }
 
