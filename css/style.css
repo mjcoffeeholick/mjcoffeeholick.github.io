@@ -1,33 +1,38 @@
 
 /* style.css */
 body {
-	background: #EBEBEB url(.../images/);
+	background: #EBEBEB;
+    background-image: url(../images/bg-space.jpg);
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #7d7d7d;
     font-size: 1em;
     line-height: 1.6em;
 }
-div {
-    display: block;
-}
+
+* { box-sizing: border-box; }
+
 h1, h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
+
 h1 {
-    color: #DD5555;
+    color: #d91a5b;
     font-size: 2em;
 }
+
 h2 {
     font-size: 1.25em;
     font-weight: 400;
 }
+
 h3 {
     font-size: 1em;
     font-weight: 300;
 }
-p {
-}
+
+
 a {
     text-decoration: none;
     color: #333;
@@ -39,28 +44,33 @@ h3 a {
     box-shadow: inset 0 -4px 0 #93e3e5;
     font-weight: bold;
 }
+
 h3 a:hover {
     -webkit-box-shadow: inset 0 -4px 0 #93e3e5;
     -moz-box-shadow: inset 0 -4px 0 #93e3e5;
     box-shadow: inset 0 -4px 0 #93e3e5;
     font-weight: bold;
 }
+
 h3 a:visited {
     -webkit-box-shadow: inset 0 -4px 0 #238282;
     -moz-box-shadow: inset 0 -4px 0 #238282;
     box-shadow: inset 0 -4px 0 #238282;
     font-weight: bold;
 }
+
 h4 a {
     color: #ccc;
     padding: 0;
     margin: 0;
 }
+
 h4 a:hover {
     color: #7d7d7d;
     padding: 0;
     margin: 0;
 }
+
 ul, menu, dir {
     display: block;
     list-style-type: disc;
@@ -70,11 +80,11 @@ ul, menu, dir {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
 }
+
 /* IDs */
 #img-profile {
-    width: 100px;
-    height: 100px;
     border: 3px solid #93e3e5;
+    border-radius: 50%;
 }
 #logo-highlight {
     width: 50%;
@@ -86,25 +96,29 @@ ul, menu, dir {
 .titles {font-family: 'Raleway', sans-serif;}
 .clear {clear: both;}
 
+.img-small {
+    width: 100px;
+    height: 100px;
+}
 .links-ico {
-    width: 100%; 
+    width: 100%;
     padding-bottom: 20px;
     color: #ccc;
 }
 .links-ico a {
-    width: 100%; 
+    width: 100%;
     padding-bottom: 20px;
     color: #7d7d7d;
     text-decoration: none;
 }
 .links-ico a:visited {
-    width: 100%; 
+    width: 100%;
     padding-bottom: 20px;
     color: #7d7d7d;
     text-decoration: none;
 }
 .links-ico a:hover {
-    width: 100%; 
+    width: 100%;
     padding-bottom: 20px;
     color: #DD5555;
     text-decoration: none;
@@ -120,12 +134,65 @@ ul, menu, dir {
 .text-center {
     text-align: center;
 }
+.top-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1.5em 0;
+}
+
+.top-menu a {
+    padding: 0 0.5em;
+    border-right: 2px solid #93e3e5;
+    color: #fff;
+}
+
+.top-menu a:hover { color: #d91a5b; }
+
+.top-menu-index {
+    background: #333;
+}
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em;
+}
+
+.footer-menu a {
+    color: #fff;
+}
+
+.footer-menu a:hover {
+    color: #d91a5b;
+}
+
 .card {
     background: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 3em 1.5em;
+    margin-bottom: 1.5em;
     border-radius: 4px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.mini-bio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.mini-bio-photo {
+    flex: 1 0 50%;
+}
+
+.mini-bio-content {
+    flex: 1 1 50%;
+}
+
+.mini-bio-text { text-align: justify; }
+
+.mini-bio-content h2 {
+    margin: 1.5em 0;
 }
 .card-footer {
     background: #fff;
@@ -152,9 +219,6 @@ ul, menu, dir {
     box-shadow: inset 0 -4px 0 #238282;
     font-weight: bold;
 }
-.img-circle {
-    border-radius: 50%;
-}
 .txt-top {
     font-weight: 300;
     text-align: center;
@@ -174,11 +238,11 @@ ul, menu, dir {
     text-align:center;
     font-size: 1.0em;
     padding:16px 18px 14px;
-     
+
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-     
+
     -webkit-box-shadow: 0px 6px 0px #a23f3f;
     -moz-box-shadow: 0px 6px 0px #a23f3f;
     box-shadow: 0px 6px 0px #a23f3f;
@@ -194,11 +258,11 @@ ul, menu, dir {
     text-align:center;
     font-size: 1.0em;
     padding:16px 18px 14px;
-     
+
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-     
+
     -webkit-box-shadow: 0px 6px 0px #6e2c2c;
     -moz-box-shadow: 0px 6px 0px #6e2c2c;
     box-shadow: 0px 6px 0px #6e2c2c;
@@ -214,11 +278,11 @@ ul, menu, dir {
     text-align:center;
     font-size: 1.0em;
     padding:16px 18px 14px;
-     
+
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-     
+
     -webkit-box-shadow: 0px 6px 0px #186c6e;
     -moz-box-shadow: 0px 6px 0px #186c6e;
     box-shadow: 0px 6px 0px #186c6e;
@@ -234,11 +298,11 @@ ul, menu, dir {
     text-align:center;
     font-size: 1.0em;
     padding:16px 18px 14px;
-     
+
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-     
+
     -webkit-box-shadow: 0px 6px 0px #186c6e;
     -moz-box-shadow: 0px 6px 0px #186c6e;
     box-shadow: 0px 6px 0px #186c6e;
@@ -254,11 +318,11 @@ ul, menu, dir {
     text-align:center;
     font-size: 1.0em;
     padding:16px 18px 14px;
-     
+
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-     
+
     -webkit-box-shadow: 0px 6px 0px #a23f3f;
     -moz-box-shadow: 0px 6px 0px #a23f3f;
     box-shadow: 0px 6px 0px #a23f3f;
@@ -274,11 +338,11 @@ ul, menu, dir {
     text-align:center;
     font-size: 1.0em;
     padding:16px 18px 14px;
-     
+
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-     
+
     -webkit-box-shadow: 0px 6px 0px #a23f3f;
     -moz-box-shadow: 0px 6px 0px #a23f3f;
     box-shadow: 0px 6px 0px #a23f3f;
@@ -375,7 +439,7 @@ ul.list-inline-event a:hover {
 	float: left;
 	width: 49%;
 }
-.img-item-double {}
+
 .img-item-double-left { float: left; width: 50%; object-fit: cover; }
 .img-item-double-right { float: right; width: 50%; object-fit: cover; }
 .ico-item {
@@ -405,61 +469,3 @@ ul.list-inline-event a:hover {
 .especial-pink {
     color: #DD5555;
 }
-
-@media only screen and (min-width: 480px) { 
-	#logo-highlight {
-	    width: 50%;
-	}
-	#img-2017 {
-	    width: 50%;
-	}
-
-}
-@media only screen and (min-width: 600px) { 
-	#logo-highlight {
-	    width: 50%;
-	}
-	#img-2017 {
-	    width: 50%;
-	}
-}
-@media only screen and (min-width: 992px) { 
-	#logo-highlight {
-	    width: 50%;
-	}
-	#img-2017 {
-	    width: 50%;
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-    .container {
-        width: 90%;
-        margin: 30px auto;
-    }
-    .img-item {
-        float: left;
-        width: 100%;
-    }
-    .content-item {
-        float: right;
-        width: 100%;
-        text-align: left;
-    }
-	#logo-highlight {
-	    width: 50%;
-	}
-	#img-2017 {
-	    width: 50%;
-	}
-}
-
-@media only screen and (min-width: 1382px) { 
-	#logo-highlight {
-	    width: 50%;
-	}
-	#img-2017 {
-	    width: 50%;
-	}
-}
-
