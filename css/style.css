@@ -178,7 +178,7 @@ ul, menu, dir {
 .mini-bio {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 3em;
+    margin: 3em;
 }
 
 .mini-bio-photo {
