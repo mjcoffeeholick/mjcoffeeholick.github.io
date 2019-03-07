@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    color: #d91a5b;
+    color: #EC407A;
     font-size: 2em;
 }
 
@@ -147,7 +147,7 @@ ul, menu, dir {
     color: #fff;
 }
 
-.top-menu a:hover { color: #d91a5b; }
+.top-menu a:hover { color: #EC407A; }
 
 .top-menu-index {
     background: #7d2eaa;
@@ -164,7 +164,7 @@ ul, menu, dir {
 }
 
 .footer-menu a:hover {
-    color: #d91a5b;
+    color: #EC407A;
 }
 
 .card {
